@@ -47,4 +47,6 @@ Run SpringBlade Application.java
 ```sh
 yarn install
 yarn run dev
+```
 
+**Step3**, visit http://localhost:2888/demo/table
