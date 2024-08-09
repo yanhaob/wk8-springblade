@@ -3,13 +3,24 @@ https://gitee.com/smallc/SpringBlade
 
 The open source project SpringBlade is a mature, open-source distributed microservice framework, referring to the Fig.1 architecture diagram below.
 
-<img src="./microservice.png" alt="microservice" width="75%">
-<p style="text-align: center;">Fig.1 Microservice</p>
+<div style="text-align: center;">
+    <img src="./microservice.png" alt="microservice" width="100%">
+    <p style="margin: 0;">Fig.1 Microservice</p>
+</div>
 
 **Step1**, configure redis& mysql(Fig.3-4) in DockerDesktop, as followed by the Fig.2 below.
-<img src="./docker.png" alt="docker-mysql-redis" width="100%"><p style="text-align: center;">Fig.2 Docker</p>
-<img src="./docker-mysql.png" alt="docker-mysql" width="50%"><p style="text-align: center;">Fig.3 MySQL(should you see the successful configuration, click "TestConnection")</p>
-<img src="./docker-redis.png" alt="docker-redis" width="50%"><p style="text-align: center;">Fig.4 Redis(should you see the successful configuration, click "TestConnection")</p>
+<div style="text-align: center;">
+    <img src="./docker.png" alt="docker-mysql-redis" width="100%">
+    <p style="margin: 0;">Fig.2 Docker</p>
+</div>
+<div style="text-align: center;">
+    <img src="./docker-mysql.png" alt="docker-mysql" width="50%">
+    <p style="margin: 0;">Fig.3 MySQL(should you see the successful configuration, click "TestConnection")</p>
+</div>
+<div style="text-align: center;">
+    <img src="./docker-redis.png" alt="docker-redis" width="50%">
+    <p style="margin: 0;">Fig.4 Redis(should you see the successful configuration, click "TestConnection")</p>
+</div>
 
 **Environments**:
 - Docker version 27.0.3
