@@ -6,8 +6,14 @@ The open source project SpringBlade is a mature, open-source distributed microse
 <img src="./microservice.png" alt="microservice" width="75%">
 <p style="text-align: center;">Fig.1 Microservice</p>
 
-首先，docker配置redis, mysql运行。运行结果如下：
+Step1, configure redis& mysql(Fig.3-4) in DockerDesktop, as followed by the Fig.2 below.
 <img src="./docker.png" alt="docker-mysql-redis" width="100%">
+<p style="text-align: center;">Fig.2 Docker</p>
+<img src="./docker-mysql.png" alt="docker-mysql" width="100%">
+<p style="text-align: center;">Fig.3 MySQL(should you see the successful configuration, click "TestConnection")</p>
+<img src="./docker-redis.png" alt="docker-redis" width="100%">
+<p style="text-align: center;">Fig.4 Redis(should you see the successful configuration, click "TestConnection")</p>
+
 
 环境配置如下：
 - Docker version 27.0.3
