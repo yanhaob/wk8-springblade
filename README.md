@@ -8,7 +8,7 @@ The open source project SpringBlade is a mature, open-source distributed microse
     <p style="margin: 0;">Fig.1 Microservice</p>
 </div>
 
-**Step1**, configure redis& mysql(Fig.3-4) in DockerDesktop, as followed by the Fig.2 below.
+**Step1**, configure redis& mysql(Fig.3-4) in DockerDesktop, as followed by the Fig.2 below. And run SpringBlade as followed by the Fig.5.
 <div style="text-align: center;">
     <img src="./docker.png" alt="docker-mysql-redis" width="100%">
     <p style="margin: 0;">Fig.2 Docker</p>
@@ -21,8 +21,11 @@ The open source project SpringBlade is a mature, open-source distributed microse
     <img src="./docker-redis.png" alt="docker-redis" width="50%">
     <p style="margin: 0;">Fig.4 Redis(should you see the successful configuration, click "TestConnection")</p>
 </div>
+<div style="text-align: center;">
+    <img src="./springblade.png" alt="springblade" width="100%">
+    <p style="margin: 0;">Fig.5 SpringBlade</p>
+</div>
 
-**Environments**:
 - Docker version 27.0.3
 - MySQL version 8.3.0
 - Redis version 7.2.4
@@ -31,4 +34,17 @@ The open source project SpringBlade is a mature, open-source distributed microse
 - Redis Desktop Manager([Download for Mac](https://pan.baidu.com/s/10vpdhw7YfDD7G4yZCGtqQg?_at_=1673701651004/))
 
 **Commands**:
+
 Run SpringBlade Application.java
+
+**Step2**, run Vue3 as followed by the Fig.6.
+<div style="text-align: center;">
+    <img src="./vue3.png" alt="vue3" width="100%">
+    <p style="margin: 0;">Fig.6 Vue3</p>
+</div>
+
+**Commands**:
+
+```sh
+yarn install
+yarn run dev
